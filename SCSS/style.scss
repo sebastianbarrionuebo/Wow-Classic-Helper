@@ -1,0 +1,627 @@
+/*Variables*/
+$fondoTransparentado: hsla(0%, 0%, 0%, 0.9);
+$horda: rgb(255, 50, 50);
+$alianza: rgb(95, 95, 242);
+$blizzard: rgb(0,174,255);
+$cuadroSombreado: 0 0 20px 0 gray;
+$clases:( /*mapa de estilo de cada clase*/
+    guerrero: brown,
+    brujo: cornflowerblue,
+    chaman: blue,
+    sacerdote: white,
+    paladin: rgb(255, 0, 170),
+    picaro: yellow,
+    mago: cyan,
+    cazador: green,
+    druida: rgb(255, 102, 0)
+);
+$nivelesProfesiones:( /*mapa de niveles de profesiones*/
+        naranja: orange,
+        amarilla:  yellow,
+        verde: green,
+        gris:  gray
+); 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Cabecera*/
+#cabecera{
+    width: 100%;
+    background-image: linear-gradient(to bottom,black,rgb(116, 114, 114));
+    .cabecera__titulo{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 20% 60% 10%;
+        h1{
+            text-align: center;
+            font-size: 45px;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+.cabecera__titulo__logo{
+    width: 100px;
+    text-align: center;
+}
+    /*Menus*/
+.nav-item:hover ul{
+    display: block;
+    position: absolute;
+}
+.dropdown-menu{
+    background-color: rgb(211, 210, 210);
+}
+
+
+/*Cuerpo de la pagina*/
+#margen{
+    width: 95%;
+    margin: auto;
+    color: white;
+    background-color: $fondoTransparentado;
+    font-family: roboto slab, sans-serif;
+    h2{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    h3{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    h4{
+        padding-top: 5px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    section{
+        margin-top: 60px;
+    }
+}
+body{
+    background-image: url(../Img/Paisaje2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+/*Cuerpo del index*/
+.notas__listas--espaciado{
+    padding-left: 40px;
+}
+.notas__sublistas--fontFamily{
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(189, 185, 185);
+}
+.notas--estilo{
+    text-align: center;
+    margin: auto;
+    border: 3px solid rgb(31, 30, 30);
+    background-color: rgb(56, 56, 56);
+}
+.masInfo{
+    background-color: red;
+}
+.masInfo:hover{
+    background-color: rgb(160, 35, 35);
+
+}
+    /*Parche de PTR Burning Crusade*/
+.nota3{
+    background-color: $fondoTransparentado;
+    p{
+        margin-top: 15px;
+    }
+    .nota3__fuente3{
+        list-style-image: url(../Img/Placa-BurningCrusades.png);
+        padding-left: 110px;
+        li{
+            width: 80px;
+        }
+    }
+    .nota3__caja1--color{
+        color: $blizzard;
+        text-align: center;
+    }
+    .nota3__caja2--centrado{
+        text-align: center;
+    }
+}
+    /*Parche de Sombra de la Necrópolis */
+.nota2{
+    background-color: $fondoTransparentado;
+    p{
+        margin-top: 15px;
+    }
+    .nota2__fuente2{
+        list-style-image: url(../Img/Placa-ShadowsoftheNecropolis.png);
+        padding-left: 110px;
+        li{
+            width: 80px;
+        }
+    }
+}
+    /*Parche de Ahn’Qiraj*/
+.nota1{
+    background-color: $fondoTransparentado;
+    margin-bottom: 60px;
+    p{
+        margin-top: 15px;
+    }
+    .nota1__fuente1{
+        list-style-image: url(../Img/Placa-AhnQuiraj.png);
+        padding-left: 110px;
+        li{
+            width: 80px;
+        }
+    }
+}
+
+
+
+/*Cuerpo de Juego*/
+    /*Navegador de juego*/
+.imgA{
+    width: 100%;
+    height: 100%;
+    transition: height 1s, width 2s;
+    border: 1px solid rgb(14, 13, 13);
+    box-shadow: $cuadroSombreado;
+}
+.imgB{
+    width: 100%;
+    height: 100%;
+    transition: height 1s, width 2s;
+    border: 1px solid rgb(14, 13, 13);
+    box-shadow: $cuadroSombreado;
+}
+.imgA:hover{
+    width: 103%;
+    height: 103%;
+}
+.imgB:hover{
+    width: 103%;
+    height: 103%;
+}
+    /*Tabla de la Horda*/
+.combinacionesHorda{
+    padding-left: 50px;
+    padding-right: 50px;
+    .combinacionesHorda__tabla--estilos{
+        background-color: $fondoTransparentado;
+        border: 1px solid $horda;
+        text-align: center;
+        color: $horda;
+        th{
+            @extend th;
+            border: 1px solid $horda;
+            padding: 5px;
+        }
+        td{
+            @extend td;
+            border: 1px solid $horda;
+            padding: 5px;
+        }
+    }
+}
+    /*Tabla de la Alianza*/
+.combinacionesAlianza{
+    padding-left: 50px;
+    padding-right: 50px;
+    .combinacionesAlianza__tabla--estilos{
+        background-color: $fondoTransparentado;
+        border: 1px solid $alianza;
+        text-align: center;
+        color: rgb(95, 95, 242);
+        th{
+            @extend th;
+            border: 1px solid $alianza;
+            padding: 5px;
+        }
+        td{
+            @extend td;
+            border: 1px solid $alianza;
+            padding: 5px;
+        }
+    }
+}
+    /*Video explicativo*/
+.videoExplicativo{
+    width: 70%;
+    margin: auto;
+    .videoExplicativo__video{
+        width: 100%;
+        padding-top: 56.25%;
+        position: relative;
+        iframe{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0px;
+            left: 0px;
+        }
+    }
+}
+
+
+
+/*Cuerpo de Clases*/
+/* Estilo del titulo de cada clase */
+@each $clase, $estilo in $clases {
+    ##{$clase}{
+        padding: 10px;
+        color: $estilo;
+        background-image: linear-gradient(to right,black, $estilo);
+    }
+}
+.clases__introduccion{
+    .introduccion_navegador--centrado{
+        text-align: center;
+    }
+    .clases__introduccion--espaciado{
+        margin-top: 50px;
+        font-size: 21px;
+        ol{
+            margin-left: 5%;
+            padding-top: 10px;
+        
+        }
+    }
+}
+.clases{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    h3{
+        text-align: center;
+    }
+    .clases__titulo{
+        font-size: 24px;
+    }
+    .clases__estadisticas{
+        strong{
+            color: yellow;
+        }
+        .clases__estadisticas--alineador{
+            padding: 4px;
+            text-align: center;
+        }
+    }
+    .clases__imagen--centrado{
+        text-align: center;
+    }
+}
+.introduccion_navegador--centrado{
+    text-align: center;
+}
+.clases__introduccion--espaciado{
+    margin-top: 50px;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+/*Cuerpo de Razas*/
+.razas{
+    .razas__titulo--horda{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: $horda;
+        text-align: center;
+        background-image: linear-gradient(to right,black,rgb(139, 0, 0));
+    }
+    .razas__titulo--ali{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: $alianza;
+        text-align: center;
+        background-image: linear-gradient(to right,black,rgb(0, 0, 122));
+    }
+    .razas__logo{
+        width: 110px;
+    }
+    div{
+        padding: 20px;
+            ul{
+                padding-left: 30px;
+                li strong{
+                    color: yellow;
+                    }
+            }
+        }
+}
+
+
+
+/*Cuerpo de profesiones*/
+.profesiones__caractula--centrado{
+    text-align: center;
+    .profesiones_caractula--recuadro{
+        border: 1px solid rgb(14, 13, 13);
+        box-shadow: $cuadroSombreado;
+    }
+}
+.profesiones{
+    margin-left: 5%;
+    list-style: none;
+    .profesiones--organizadorLista{
+        display: flex;
+        align-items: center;
+    }
+}
+.Profesiones__imagen--centrado{
+    margin-top: 30px;
+    text-align: center;
+}
+.Profesiones__imagen--centrado img:hover{
+    transform: scale(1.2,1.2);  
+}
+@each $nivel, $colores in $nivelesProfesiones {
+    .profesiones__habilidad--#{$nivel}{
+        color: $colores;
+    }
+}
+.profesiones__niveles--espaciado{
+    margin-left: 5%;
+    list-style-type: upper-roman;
+}
+
+
+
+/*Cuerpo de mazmorras*/
+.instancias_imagen--centrado{
+    text-align: center;
+    .instancias_imagen--recuadro{
+        border: 1px solid rgb(14, 13, 13);
+        box-shadow: $cuadroSombreado;
+    }
+}
+.mazmorras{
+    padding-left: 50px;
+    padding-right: 50px;
+    .mazmorras__tabla--estilos{
+        background-color: $fondoTransparentado;
+        border: 1px solid white;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        th{
+            @extend th;
+            background-color: black;
+            border: 1px solid white;
+            padding: 5px;
+        }
+        td{
+            @extend td;
+            border: 1px solid white;
+            padding: 5px;
+        }
+    }
+}
+.bandas{
+    padding-left: 50px;
+    padding-right: 50px;
+    .bandas__tabla--estilos{
+        background-color: $fondoTransparentado;
+        border: 1px solid white;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        th{
+            @extend th;
+            background-color: black;
+            border: 1px solid white;
+            padding: 5px;
+        }
+        td{
+            @extend td;
+            border: 1px solid white;
+            padding: 5px;
+        }
+    }
+}
+
+
+
+/*Cuerpo de mapas*/
+.mapas__caractula--centrado{
+    text-align: center;
+    .mapas__caractula--recuadro{
+        border: 1px solid rgb(14, 13, 13);
+        box-shadow: $cuadroSombreado;
+    }
+}
+.mapas__introduccion--espaciado{
+    padding-top: 40px;
+}
+.kalindor{
+    padding-left: 50px;
+    padding-right: 50px;
+    .kalindor__tabla{
+        background-color: $fondoTransparentado;
+        border: 1px solid white;
+        text-align: center;
+        th{
+            @extend th;
+            background-color: black;
+            border: 1px solid white;
+            padding: 5px;
+        }
+        td{
+            @extend td;
+            border: 1px solid white;
+            text-align: center;
+            padding: 5px;
+        }
+    }
+}
+.este{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    .este__tabla{
+        background-color: $fondoTransparentado;
+        border: 1px solid white;
+        text-align: center;
+        th{
+            @extend th;
+            background-color: black;
+            border: 1px solid white;
+            padding: 5px;
+        }
+        td{
+            @extend td;
+            border: 1px solid white;
+            text-align: center;
+            padding: 5px;
+        }
+    }
+}
+
+
+/*Cuerpo de contactos*/
+.contactos{
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 70%;
+    margin: auto;
+    .contactos__formulario--recuadro{
+        border-radius: 5px;
+        background-color: black;
+        box-shadow: $cuadroSombreado;
+        /*Imagen de la carta*/
+        .formulario__imagen{
+            text-align: center;
+            .formulario__imagen--recuadro{
+                border-radius: 10px;
+                box-shadow: 0 0 60px 0 rgb(255, 0, 0);
+            }
+        }
+        /*formulario seccion de Nombre*/
+        .formulario__nombre{
+            margin-top: 30px;
+            text-align: center;
+            input{
+                color: white;
+                border-radius: 9px;
+                background-color: rgb(29, 28, 28);
+            }
+        }
+        /*formulario seccion de Email*/
+        .formulario__email{
+            margin-top: 30px;
+            text-align: center;
+            input{
+                color: white;
+                border-radius: 9px;
+                background-color: rgb(29, 28, 28);
+            }
+        }
+        /*formulario seccion de BattleTag*/
+        .formulario__battelTag{
+            margin-top: 30px;
+            text-align: center;
+            input{
+                color: white;
+                border-radius: 9px;
+                background-color: rgb(29, 28, 28);
+            }
+        }
+        /*formulario seccion de Tipo de consulta*/
+        .formulario__tipoConsulta{
+            margin-top: 30px;
+            text-align: center;
+            select{
+                color: white;
+                width: 220px;
+                height: 30px;
+                border-radius: 9px;
+                background-color: rgb(29, 28, 28);
+            }
+        }
+        .formulario__tipoConsulta select:hover{
+            background-color: rgb(26, 25, 25);
+        }
+        /*formulario seccion del Chekbox*/
+        .formulario__chekbox{
+            margin-top: 30px;
+            text-align: end;
+        }
+        .formulario__siNovedades{
+            margin-top: 30px;
+            text-align: start;
+        }
+        /*formulario seccion de la caja de comentarios*/
+        .formulario__cajaDeComentarios{
+            text-align: center;
+            textarea{
+                color: white;
+                width: 80%;
+                height: 80%;
+                border-radius: 9px;
+                background-color: rgb(29, 29, 29);
+            }
+        }
+        /*formulario seccion de los botones enviar y reset*/
+        .formulario__botones{
+            text-align: center;
+            margin-bottom: 30px;
+            .enviar{
+                width: 100px;
+            }
+        }
+    }
+}
+
+
+
+/*MediaSquery*/
+    /*Seccion de contactos para estilizar la transicion a medida qie se reduce la resolucion de pantalla*/
+@media (min-width: 768px){
+    .tipoConsulta select{
+        width: 200px;
+    }
+}
+    /*Todas las secciones*/
+@media (max-width: 576px) {
+    #margen{
+        font-size: 18px;
+    }
+}
+
+
+
+/*Pie de pagina*/
+#pie{
+    background-image: linear-gradient(to top, black , rgb(80, 79, 79));
+    width: 100%;
+    height: 120px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    color: $blizzard;
+    text-align: center;
+    .pie__imagen--centrado{
+        width: 60px;
+        height: auto;
+        text-align: center;
+    }
+}

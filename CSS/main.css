@@ -1,0 +1,519 @@
+@charset "UTF-8";
+/*Variables*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*Cabecera*/
+#cabecera {
+  width: 100%;
+  background-image: linear-gradient(to bottom, black, #747272); }
+  #cabecera .cabecera__titulo {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 20% 60% 10%; }
+    #cabecera .cabecera__titulo h1 {
+      text-align: center;
+      font-size: 45px; }
+      #cabecera .cabecera__titulo h1 a {
+        text-decoration: none;
+        color: white; }
+
+.cabecera__titulo__logo {
+  width: 100px;
+  text-align: center; }
+
+/*Menus*/
+.nav-item:hover ul {
+  display: block;
+  position: absolute; }
+
+.dropdown-menu {
+  background-color: #d3d2d2; }
+
+/*Cuerpo de la pagina*/
+#margen {
+  width: 95%;
+  margin: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: roboto slab, sans-serif; }
+  #margen h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  #margen h3 {
+    margin-top: 20px;
+    font-size: 25px; }
+  #margen h4 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 20px; }
+  #margen section {
+    margin-top: 60px; }
+
+body {
+  background-image: url(../Img/Paisaje2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/*Cuerpo del index*/
+.notas__listas--espaciado {
+  padding-left: 40px; }
+
+.notas__sublistas--fontFamily {
+  padding-left: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #bdb9b9; }
+
+.notas--estilo {
+  text-align: center;
+  margin: auto;
+  border: 3px solid #1f1e1e;
+  background-color: #383838; }
+
+.masInfo {
+  background-color: red; }
+
+.masInfo:hover {
+  background-color: #a02323; }
+
+/*Parche de PTR Burning Crusade*/
+.nota3 {
+  background-color: rgba(0, 0, 0, 0.9); }
+  .nota3 p {
+    margin-top: 15px; }
+  .nota3 .nota3__fuente3 {
+    list-style-image: url(../Img/Placa-BurningCrusades.png);
+    padding-left: 110px; }
+    .nota3 .nota3__fuente3 li {
+      width: 80px; }
+  .nota3 .nota3__caja1--color {
+    color: #00aeff;
+    text-align: center; }
+  .nota3 .nota3__caja2--centrado {
+    text-align: center; }
+
+/*Parche de Sombra de la Necrópolis */
+.nota2 {
+  background-color: rgba(0, 0, 0, 0.9); }
+  .nota2 p {
+    margin-top: 15px; }
+  .nota2 .nota2__fuente2 {
+    list-style-image: url(../Img/Placa-ShadowsoftheNecropolis.png);
+    padding-left: 110px; }
+    .nota2 .nota2__fuente2 li {
+      width: 80px; }
+
+/*Parche de Ahn’Qiraj*/
+.nota1 {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 60px; }
+  .nota1 p {
+    margin-top: 15px; }
+  .nota1 .nota1__fuente1 {
+    list-style-image: url(../Img/Placa-AhnQuiraj.png);
+    padding-left: 110px; }
+    .nota1 .nota1__fuente1 li {
+      width: 80px; }
+
+/*Cuerpo de Juego*/
+/*Navegador de juego*/
+.imgA {
+  width: 100%;
+  height: 100%;
+  transition: height 1s, width 2s;
+  border: 1px solid #0e0d0d;
+  box-shadow: 0 0 20px 0 gray; }
+
+.imgB {
+  width: 100%;
+  height: 100%;
+  transition: height 1s, width 2s;
+  border: 1px solid #0e0d0d;
+  box-shadow: 0 0 20px 0 gray; }
+
+.imgA:hover {
+  width: 103%;
+  height: 103%; }
+
+.imgB:hover {
+  width: 103%;
+  height: 103%; }
+
+/*Tabla de la Horda*/
+.combinacionesHorda {
+  padding-left: 50px;
+  padding-right: 50px; }
+  .combinacionesHorda .combinacionesHorda__tabla--estilos {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid #ff3232;
+    text-align: center;
+    color: #ff3232; }
+    .combinacionesHorda .combinacionesHorda__tabla--estilos th {
+      border: 1px solid #ff3232;
+      padding: 5px; }
+    .combinacionesHorda .combinacionesHorda__tabla--estilos td {
+      border: 1px solid #ff3232;
+      padding: 5px; }
+
+/*Tabla de la Alianza*/
+.combinacionesAlianza {
+  padding-left: 50px;
+  padding-right: 50px; }
+  .combinacionesAlianza .combinacionesAlianza__tabla--estilos {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid #5f5ff2;
+    text-align: center;
+    color: #5f5ff2; }
+    .combinacionesAlianza .combinacionesAlianza__tabla--estilos th {
+      border: 1px solid #5f5ff2;
+      padding: 5px; }
+    .combinacionesAlianza .combinacionesAlianza__tabla--estilos td {
+      border: 1px solid #5f5ff2;
+      padding: 5px; }
+
+/*Video explicativo*/
+.videoExplicativo {
+  width: 70%;
+  margin: auto; }
+  .videoExplicativo .videoExplicativo__video {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative; }
+    .videoExplicativo .videoExplicativo__video iframe {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0px;
+      left: 0px; }
+
+/*Cuerpo de Clases*/
+/* Estilo del titulo de cada clase */
+#guerrero {
+  padding: 10px;
+  color: brown;
+  background-image: linear-gradient(to right, black, brown); }
+
+#brujo {
+  padding: 10px;
+  color: cornflowerblue;
+  background-image: linear-gradient(to right, black, cornflowerblue); }
+
+#chaman {
+  padding: 10px;
+  color: blue;
+  background-image: linear-gradient(to right, black, blue); }
+
+#sacerdote {
+  padding: 10px;
+  color: white;
+  background-image: linear-gradient(to right, black, white); }
+
+#paladin {
+  padding: 10px;
+  color: #ff00aa;
+  background-image: linear-gradient(to right, black, #ff00aa); }
+
+#picaro {
+  padding: 10px;
+  color: yellow;
+  background-image: linear-gradient(to right, black, yellow); }
+
+#mago {
+  padding: 10px;
+  color: cyan;
+  background-image: linear-gradient(to right, black, cyan); }
+
+#cazador {
+  padding: 10px;
+  color: green;
+  background-image: linear-gradient(to right, black, green); }
+
+#druida {
+  padding: 10px;
+  color: #ff6600;
+  background-image: linear-gradient(to right, black, #ff6600); }
+
+.clases__introduccion .introduccion_navegador--centrado {
+  text-align: center; }
+
+.clases__introduccion .clases__introduccion--espaciado {
+  margin-top: 50px;
+  font-size: 21px; }
+  .clases__introduccion .clases__introduccion--espaciado ol {
+    margin-left: 5%;
+    padding-top: 10px; }
+
+.clases {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+  .clases h3 {
+    text-align: center; }
+  .clases .clases__titulo {
+    font-size: 24px; }
+  .clases .clases__estadisticas strong {
+    color: yellow; }
+  .clases .clases__estadisticas .clases__estadisticas--alineador {
+    padding: 4px;
+    text-align: center; }
+  .clases .clases__imagen--centrado {
+    text-align: center; }
+
+.introduccion_navegador--centrado {
+  text-align: center; }
+
+.clases__introduccion--espaciado {
+  margin-top: 50px;
+  font-size: 23px; }
+
+/*Cuerpo de Razas*/
+.razas .razas__titulo--horda {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ff3232;
+  text-align: center;
+  background-image: linear-gradient(to right, black, darkred); }
+
+.razas .razas__titulo--ali {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #5f5ff2;
+  text-align: center;
+  background-image: linear-gradient(to right, black, #00007a); }
+
+.razas .razas__logo {
+  width: 110px; }
+
+.razas div {
+  padding: 20px; }
+  .razas div ul {
+    padding-left: 30px; }
+    .razas div ul li strong {
+      color: yellow; }
+
+/*Cuerpo de profesiones*/
+.profesiones__caractula--centrado {
+  text-align: center; }
+  .profesiones__caractula--centrado .profesiones_caractula--recuadro {
+    border: 1px solid #0e0d0d;
+    box-shadow: 0 0 20px 0 gray; }
+
+.profesiones {
+  margin-left: 5%;
+  list-style: none; }
+  .profesiones .profesiones--organizadorLista {
+    display: flex;
+    align-items: center; }
+
+.Profesiones__imagen--centrado {
+  margin-top: 30px;
+  text-align: center; }
+
+.Profesiones__imagen--centrado img:hover {
+  transform: scale(1.2, 1.2); }
+
+.profesiones__habilidad--naranja {
+  color: orange; }
+
+.profesiones__habilidad--amarilla {
+  color: yellow; }
+
+.profesiones__habilidad--verde {
+  color: green; }
+
+.profesiones__habilidad--gris {
+  color: gray; }
+
+.profesiones__niveles--espaciado {
+  margin-left: 5%;
+  list-style-type: upper-roman; }
+
+/*Cuerpo de mazmorras*/
+.instancias_imagen--centrado {
+  text-align: center; }
+  .instancias_imagen--centrado .instancias_imagen--recuadro {
+    border: 1px solid #0e0d0d;
+    box-shadow: 0 0 20px 0 gray; }
+
+.mazmorras {
+  padding-left: 50px;
+  padding-right: 50px; }
+  .mazmorras .mazmorras__tabla--estilos {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px; }
+    .mazmorras .mazmorras__tabla--estilos th {
+      background-color: black;
+      border: 1px solid white;
+      padding: 5px; }
+    .mazmorras .mazmorras__tabla--estilos td {
+      border: 1px solid white;
+      padding: 5px; }
+
+.bandas {
+  padding-left: 50px;
+  padding-right: 50px; }
+  .bandas .bandas__tabla--estilos {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px; }
+    .bandas .bandas__tabla--estilos th {
+      background-color: black;
+      border: 1px solid white;
+      padding: 5px; }
+    .bandas .bandas__tabla--estilos td {
+      border: 1px solid white;
+      padding: 5px; }
+
+/*Cuerpo de mapas*/
+.mapas__caractula--centrado {
+  text-align: center; }
+  .mapas__caractula--centrado .mapas__caractula--recuadro {
+    border: 1px solid #0e0d0d;
+    box-shadow: 0 0 20px 0 gray; }
+
+.mapas__introduccion--espaciado {
+  padding-top: 40px; }
+
+.kalindor {
+  padding-left: 50px;
+  padding-right: 50px; }
+  .kalindor .kalindor__tabla {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid white;
+    text-align: center; }
+    .kalindor .kalindor__tabla th {
+      background-color: black;
+      border: 1px solid white;
+      padding: 5px; }
+    .kalindor .kalindor__tabla td {
+      border: 1px solid white;
+      text-align: center;
+      padding: 5px; }
+
+.este {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px; }
+  .este .este__tabla {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 1px solid white;
+    text-align: center; }
+    .este .este__tabla th {
+      background-color: black;
+      border: 1px solid white;
+      padding: 5px; }
+    .este .este__tabla td {
+      border: 1px solid white;
+      text-align: center;
+      padding: 5px; }
+
+/*Cuerpo de contactos*/
+.contactos {
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 70%;
+  margin: auto; }
+  .contactos .contactos__formulario--recuadro {
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 0 20px 0 gray;
+    /*Imagen de la carta*/
+    /*formulario seccion de Nombre*/
+    /*formulario seccion de Email*/
+    /*formulario seccion de BattleTag*/
+    /*formulario seccion de Tipo de consulta*/
+    /*formulario seccion del Chekbox*/
+    /*formulario seccion de la caja de comentarios*/
+    /*formulario seccion de los botones enviar y reset*/ }
+    .contactos .contactos__formulario--recuadro .formulario__imagen {
+      text-align: center; }
+      .contactos .contactos__formulario--recuadro .formulario__imagen .formulario__imagen--recuadro {
+        border-radius: 10px;
+        box-shadow: 0 0 60px 0 red; }
+    .contactos .contactos__formulario--recuadro .formulario__nombre {
+      margin-top: 30px;
+      text-align: center; }
+      .contactos .contactos__formulario--recuadro .formulario__nombre input {
+        color: white;
+        border-radius: 9px;
+        background-color: #1d1c1c; }
+    .contactos .contactos__formulario--recuadro .formulario__email {
+      margin-top: 30px;
+      text-align: center; }
+      .contactos .contactos__formulario--recuadro .formulario__email input {
+        color: white;
+        border-radius: 9px;
+        background-color: #1d1c1c; }
+    .contactos .contactos__formulario--recuadro .formulario__battelTag {
+      margin-top: 30px;
+      text-align: center; }
+      .contactos .contactos__formulario--recuadro .formulario__battelTag input {
+        color: white;
+        border-radius: 9px;
+        background-color: #1d1c1c; }
+    .contactos .contactos__formulario--recuadro .formulario__tipoConsulta {
+      margin-top: 30px;
+      text-align: center; }
+      .contactos .contactos__formulario--recuadro .formulario__tipoConsulta select {
+        color: white;
+        width: 220px;
+        height: 30px;
+        border-radius: 9px;
+        background-color: #1d1c1c; }
+    .contactos .contactos__formulario--recuadro .formulario__tipoConsulta select:hover {
+      background-color: #1a1919; }
+    .contactos .contactos__formulario--recuadro .formulario__chekbox {
+      margin-top: 30px;
+      text-align: end; }
+    .contactos .contactos__formulario--recuadro .formulario__siNovedades {
+      margin-top: 30px;
+      text-align: start; }
+    .contactos .contactos__formulario--recuadro .formulario__cajaDeComentarios {
+      text-align: center; }
+      .contactos .contactos__formulario--recuadro .formulario__cajaDeComentarios textarea {
+        color: white;
+        width: 80%;
+        height: 80%;
+        border-radius: 9px;
+        background-color: #1d1d1d; }
+    .contactos .contactos__formulario--recuadro .formulario__botones {
+      text-align: center;
+      margin-bottom: 30px; }
+      .contactos .contactos__formulario--recuadro .formulario__botones .enviar {
+        width: 100px; }
+
+/*MediaSquery*/
+/*Seccion de contactos para estilizar la transicion a medida qie se reduce la resolucion de pantalla*/
+@media (min-width: 768px) {
+  .tipoConsulta select {
+    width: 200px; } }
+
+/*Todas las secciones*/
+@media (max-width: 576px) {
+  #margen {
+    font-size: 18px; } }
+
+/*Pie de pagina*/
+#pie {
+  background-image: linear-gradient(to top, black, #504f4f);
+  width: 100%;
+  height: 120px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #00aeff;
+  text-align: center; }
+  #pie .pie__imagen--centrado {
+    width: 60px;
+    height: auto;
+    text-align: center; }

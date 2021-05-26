@@ -1,0 +1,39 @@
+Description:
+	<meta name="description" content="Pagina fandom dedicada a contenido de Word of Warcraft Classic">
+
+Keywords:	
+	keywords en el index:
+	  <meta name="keywords" content="Wow Classic Helper, World of Warcraft, Classic, Guias, Clases, Razas, Facciones, Profesiones, Mapas, Mazmorras, Bandas, Instancias, MMORPG, RPG, Parche">
+	keywords en el Juego:
+	  <meta name="keywords" content="Wow Classic Helper, Guias, Clases, Razas, Combinaciones, Explicaciones, Alianza, Horda">
+	keywords en el Clases:
+	  <meta name="keywords" content="Wow Classic Helper, Guias, Clases, Talentos, Habilidades, Estadisticas, Guerrero, Brujo, Chaman, Sacerdote, Paladin, Asesino, Picaro, Mago, Cazador, Druida">
+	keywords en el Razas:
+	  <meta name="keywords" content="Wow Classic Helper, Guias, Clases, Razas, Facciones, Habilidades, Alianza, Horda, Humano, Gnomo, Enano, Elfo, Orco, Trol, Tauren, No-Muerto">
+	keywords en el Profesiones:
+	  <meta name="keywords" content="Wow Classic Helper, Guias, Profesiones, sistema de profesiones, subida, niveles, rangos, Alquimia, Herreria, Encantamiento, Ingenieria, Botanica, Peleteria, Mineria, Desuello, Sastreria, Cocina, Pesca, Primeros Auxilios, Recoleccion">
+	keywords en el Mazmorras:
+	  <meta name="keywords" content="Wow Classic Helper, Guias, Mazmorras, Bandas, Instancias, Cantidad de jugadores, Ubicaciones">
+	keywords en el Mapas:
+	  <meta name="keywords" content="Wow Classic Helper, Guias, Mapas, Niveles, Kalindor, Reinos del este, Territorios">
+	keywords en el Contacto:
+	  <meta name="keywords" content="Wow Classic Helper, Guias, Contacto, Comunidad">
+	keywords en el PTR Burning Crusade:
+	  <meta name="keywords" content="Wow Classic Helper, noticias, Parche, PTR, Burning Crusade, 1.13.7, novedades, detalles del parche">
+	keywords en el Puertas De Ahn’Qiraj:
+	  <meta name="keywords" content="Wow Classic Helper, noticias, Parche, Puertas De Ahn’Qiraj, Ahn’Qiraj, 1.13.5, novedades, detalles del parche">
+	keywords en el Sombra de la Necropolis:
+	  <meta name="keywords" content="Wow Classic Helper, noticias, Parche, Sombra de la Necropolis, 1.13.6, novedades, detalles del parche">
+
+Titulos de las paginasweb:
+	Index: <title>Wow Classic Helper</title>
+	Clases: <title>Wow Classic - Clases</title>
+	Contacto: <title>Wow Classic - Contacto</title>
+	Juego: <title>Wow Classic - Juego</title>
+	Mapas: <title>Wow Classic - Mapas</title>
+	Mazmorras: <title>Wow Classic - Mazmorras</title>
+	Profesiones: <title>Wow Classic - Profesiones</title>
+	Razas: <title>Wow Classic - Razas</title>
+	PTRBurgingCrusade: <title>PTR Burging Crusade</title>
+	PuertasDeAhn´Qiraj: <title>Puertas De Ahn´Qiraj</title>
+	SombraDeLaNecropolis: <title>Sombra De La Necropolis</title>
