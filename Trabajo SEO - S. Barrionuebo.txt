@@ -1,39 +1,47 @@
-Description:
-	<meta name="description" content="Pagina fandom dedicada a contenido de Word of Warcraft Classic">
-
-Keywords:	
-	keywords en el index:
+Se agregaron  los siguientes Keywords y description a las respectivas paginas:	
+	Index:
+	  <meta name="description" content="Pagina fandom dedicada a contenido de Word of Warcraft Classic: Guias, Faccions, Razas, Clases, etc.">
 	  <meta name="keywords" content="Wow Classic Helper, World of Warcraft, Classic, Guias, Clases, Razas, Facciones, Profesiones, Mapas, Mazmorras, Bandas, Instancias, MMORPG, RPG, Parche">
-	keywords en el Juego:
+	Juego:
+	  <meta name="description" content="Aprende todo lo que tienes que saber sobre Word of Warcraft Classic">
 	  <meta name="keywords" content="Wow Classic Helper, Guias, Clases, Razas, Combinaciones, Explicaciones, Alianza, Horda">
-	keywords en el Clases:
+	Clases:
+	  <meta name="description" content="Aprende sobre todas las clases que se encuentran en Word of Warcraft Classic">
 	  <meta name="keywords" content="Wow Classic Helper, Guias, Clases, Talentos, Habilidades, Estadisticas, Guerrero, Brujo, Chaman, Sacerdote, Paladin, Asesino, Picaro, Mago, Cazador, Druida">
-	keywords en el Razas:
+	Razas:
+	  <meta name="description" content="Aprende sobre todas las razas y su respectiva faccion dentro de Word of Warcraft Classic">
 	  <meta name="keywords" content="Wow Classic Helper, Guias, Clases, Razas, Facciones, Habilidades, Alianza, Horda, Humano, Gnomo, Enano, Elfo, Orco, Trol, Tauren, No-Muerto">
-	keywords en el Profesiones:
+	Profesiones:
+	  <meta name="description" content="Aprende todo lo necesario para subir tus profesiones dentro de Word of Warcraft Classic">
 	  <meta name="keywords" content="Wow Classic Helper, Guias, Profesiones, sistema de profesiones, subida, niveles, rangos, Alquimia, Herreria, Encantamiento, Ingenieria, Botanica, Peleteria, Mineria, Desuello, Sastreria, Cocina, Pesca, Primeros Auxilios, Recoleccion">
-	keywords en el Mazmorras:
+	Mazmorras:
+	  <meta name="description" content="Pagina fandom dedicada a contenido de Word of Warcraft Classic">
 	  <meta name="keywords" content="Wow Classic Helper, Guias, Mazmorras, Bandas, Instancias, Cantidad de jugadores, Ubicaciones">
-	keywords en el Mapas:
+	Mapas:
+	  <meta name="description" content="Encuentra todos los mapas de Word of Warcraft Classic y sus respectivas franjas de niveles.">
 	  <meta name="keywords" content="Wow Classic Helper, Guias, Mapas, Niveles, Kalindor, Reinos del este, Territorios">
-	keywords en el Contacto:
+	Contacto:
+	  <meta name="description" content="Contactanos para poder ayudarte y solucionar tus dudas sobre el juego.">
 	  <meta name="keywords" content="Wow Classic Helper, Guias, Contacto, Comunidad">
-	keywords en el PTR Burning Crusade:
+	PTR Burning Crusade:
+	  <meta name="description" content="Notas del parche 1.13.7 PTR Burning Crusade.">
 	  <meta name="keywords" content="Wow Classic Helper, noticias, Parche, PTR, Burning Crusade, 1.13.7, novedades, detalles del parche">
-	keywords en el Puertas De Ahn’Qiraj:
+	Puertas De Ahn’Qiraj:
+	  <meta name="description" content="Notas del parche 1.13.5 Puertas De Ahn’Qiraj.">
 	  <meta name="keywords" content="Wow Classic Helper, noticias, Parche, Puertas De Ahn’Qiraj, Ahn’Qiraj, 1.13.5, novedades, detalles del parche">
-	keywords en el Sombra de la Necropolis:
+	Sombra de la Necropolis:
+	  <meta name="description" content="Notas del parche 1.13.6 Sombra de la Necropolis.">
 	  <meta name="keywords" content="Wow Classic Helper, noticias, Parche, Sombra de la Necropolis, 1.13.6, novedades, detalles del parche">
 
-Titulos de las paginasweb:
+Hice los siguientes cambios en los titulos de las paginasweb del sitio:
 	Index: <title>Wow Classic Helper</title>
-	Clases: <title>Wow Classic - Clases</title>
-	Contacto: <title>Wow Classic - Contacto</title>
-	Juego: <title>Wow Classic - Juego</title>
-	Mapas: <title>Wow Classic - Mapas</title>
-	Mazmorras: <title>Wow Classic - Mazmorras</title>
-	Profesiones: <title>Wow Classic - Profesiones</title>
-	Razas: <title>Wow Classic - Razas</title>
+	Clases: <title>Clases</title>
+	Contacto: <title>Contacto</title>
+	Juego: <title>Juego</title>
+	Mapas: <title>Mapas</title>
+	Mazmorras: <title>Mazmorras</title>
+	Profesiones: <title>Profesiones</title>
+	Razas: <title>Razas</title>
 	PTRBurgingCrusade: <title>PTR Burging Crusade</title>
 	PuertasDeAhn´Qiraj: <title>Puertas De Ahn´Qiraj</title>
 	SombraDeLaNecropolis: <title>Sombra De La Necropolis</title>
