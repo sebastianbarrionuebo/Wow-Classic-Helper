@@ -37,6 +37,8 @@
 #margen {
   width: 95%;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 50px;
   color: white;
   background-color: rgba(0, 0, 0, 0.9);
@@ -48,6 +50,7 @@
     padding-bottom: 30px; }
   #margen h3 {
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 25px; }
   #margen h4 {
     padding-top: 5px;
@@ -55,6 +58,13 @@
     font-size: 20px; }
   #margen section {
     margin-top: 60px; }
+
+p {
+  margin-left: 10px;
+  color: #eee6e6; }
+
+ul li {
+  color: #eee6e6; }
 
 body {
   background-image: url(../Img/Paisaje2.jpg);
@@ -64,7 +74,8 @@ body {
 
 /*Cuerpo del index*/
 .notas__listas--espaciado {
-  padding-left: 40px; }
+  padding-left: 40px;
+  color: #dad9d9; }
 
 .notas__sublistas--fontFamily {
   padding-left: 40px;
@@ -72,16 +83,35 @@ body {
   color: #bdb9b9; }
 
 .notas--estilo {
-  text-align: center;
   margin: auto;
   border: 3px solid #1f1e1e;
   background-color: #383838; }
+  .notas--estilo img {
+    padding-top: 10px; }
+  .notas--estilo p {
+    padding-top: 10px; }
+  .notas--estilo .card-body {
+    text-align: center; }
+  .notas--estilo .masInfo {
+    background-color: red; }
+  .notas--estilo .masInfo:hover {
+    background-color: #a02323; }
 
-.masInfo {
-  background-color: red; }
+/*Expansion Burning Crusade Classic*/
+.nota__contenido--ceparador {
+  padding-bottom: 20px;
+  border-top: 4px solid #573304; }
+  .nota__contenido--ceparador img {
+    padding-bottom: 30px; }
 
-.masInfo:hover {
-  background-color: #a02323; }
+.nota__contenido--centrado {
+  text-align: center; }
+  .nota__contenido--centrado .nota__contenido--recuadro {
+    color: green;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green; }
+  .nota__contenido--centrado .nota__contenido--color {
+    color: #bd6508; }
 
 /*Parche de PTR Burning Crusade*/
 .nota3 {
@@ -94,8 +124,9 @@ body {
     .nota3 .nota3__fuente3 li {
       width: 80px; }
   .nota3 .nota3__caja1--color {
-    color: #00aeff;
     text-align: center; }
+    .nota3 .nota3__caja1--color p {
+      color: #00aeff; }
   .nota3 .nota3__caja2--centrado {
     text-align: center; }
 

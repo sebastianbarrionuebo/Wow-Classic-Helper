@@ -68,6 +68,8 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
 #margen{
     width: 95%;
     margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 50px;
     color: white;
     background-color: $fondoTransparentado;
@@ -80,6 +82,7 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
     }
     h3{
         margin-top: 20px;
+        margin-bottom: 20px;
         font-size: 25px;
     }
     h4{
@@ -89,6 +92,15 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
     }
     section{
         margin-top: 60px;
+    }
+}
+p{
+    margin-left: 10px;
+    color: rgb(238, 230, 230);  
+}
+ul{
+    li{
+        color: rgb(238, 230, 230); 
     }
 }
 body{
@@ -103,6 +115,7 @@ body{
 /*Cuerpo del index*/
 .notas__listas--espaciado{
     padding-left: 40px;
+    color: rgb(218, 217, 217); 
 }
 .notas__sublistas--fontFamily{
     padding-left: 40px;
@@ -110,18 +123,44 @@ body{
     color: rgb(189, 185, 185);
 }
 .notas--estilo{
-    text-align: center;
     margin: auto;
     border: 3px solid rgb(31, 30, 30);
     background-color: rgb(56, 56, 56);
+    img{
+        padding-top: 10px;
+    }
+    p{
+        padding-top: 10px;
+    }
+    .card-body{
+        text-align: center;
+    }
+    .masInfo{
+        background-color: red;
+    }
+    .masInfo:hover{
+        background-color: rgb(160, 35, 35);
+    }
 }
-.masInfo{
-    background-color: red;
-}
-.masInfo:hover{
-    background-color: rgb(160, 35, 35);
-
-}
+    /*Expansion Burning Crusade Classic*/
+    .nota__contenido--ceparador{
+        padding-bottom: 20px;
+        border-top: 4px solid rgb(87, 51, 4);
+        img{
+            padding-bottom: 30px;
+        }
+    }
+    .nota__contenido--centrado{
+        text-align: center;
+        .nota__contenido--recuadro{
+            color: green;
+            border-top: 1px solid green;
+            border-bottom: 1px solid green;
+        }
+        .nota__contenido--color{
+            color: rgb(189, 101, 8);
+        }
+    }
     /*Parche de PTR Burning Crusade*/
 .nota3{
     background-color: $fondoTransparentado;
@@ -136,8 +175,10 @@ body{
         }
     }
     .nota3__caja1--color{
-        color: $blizzard;
         text-align: center;
+        p{
+            color: $blizzard;
+        }
     }
     .nota3__caja2--centrado{
         text-align: center;
