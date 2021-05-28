@@ -64,157 +64,154 @@
         </nav>
     </Header>
     <!--Cuerpo de la Pagina-->
-    <div class="paginaContenedor">
-        <section id="margen">
+    <section id="margen">
+        <section class="container-fluid">
             <section class="container-fluid">
-                <section class="container-fluid">
-                    <div class="row">
-                        <h2>Profesiones</h2>
+                <div class="row">
+                    <h2>Profesiones</h2>
+                </div>
+                <div class="row-fluid profesiones__caractula--centrado">
+                    <img class="img-fluid profesiones_caractula--recuadro" src="../Img/Img-Profesiones.jpeg" alt="">
+                </div>
+            </section>
+            <!--Todas las profesiones del juego-->
+            <section class="container-fluid">
+                <div class="row">
+                    <h3>Profesiones de World of Warcraft:</h3>
+                </div>
+                <div class="row">
+                    <p>Dentro de Wow Clasic existen 9 profesiones principales de las cuales podemos aprender 2 de ellas que en el caso de querer cambiarla por otra se podra hacer en cualquier momento y otras 3 profesiones secundarias las cuales podremos aprender las tres.</p>
+                    <p>A continuacion te mostramos un listado de todas las profeciones existentes divididas en primarias y secundarias:</p>
+                </div>
+                <div class="row">
+                    <ul class="profesiones">
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Alchemy.png" alt="Logo de Alquimia">  
+                                <p><strong>Alquimia</strong></p>
+                            </div>   
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Bracksmith.png" alt="Logo de Herreria">
+                                <p><strong>Herreria</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Enchanting.png" alt="Logo de Encantamiento">
+                                <p><strong>Encantaiento</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Engineering.png" alt="Logo de Ingenieria">
+                                <p><strong>Ingenieria</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Herbalism.png" alt="Logo de Herbolaria">
+                                <p><strong>Botanica(Recoleccion)</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Leathering.png" alt="Logo de Peleteria">
+                                <p><strong>Peleteria</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Mining.png" alt="Logo de Mineria">
+                                <p><strong>Mineria(Recoleccion)</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Skining.png" alt="Logo de Desuello">
+                                <p><strong>Desuello(Recoleccion)</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Tailoring.png" alt="Logo de Sastreria">
+                                <p><strong>Sastreria</strong></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <p>Las Profesiones secundarias que existen son:</p>
+                </div>
+                <div class="row">
+                    <ul class="profesiones">
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Coocking.png" alt="Logo de cocina">
+                                <p><strong>Cocina</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-Fishing.png" alt="Logo de Pesca">
+                                <p><strong>Pesca</strong></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profesiones--organizadorLista">
+                                <img src="../Img/Profesiones/Prof-FirstAid.png" alt="Logo de Primeros Auxilios">
+                                <p><strong>Primeros Auxilios</strong></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--Combinaciones de profesiones-->
+            <section class="container-fluid">
+                <div class="row">
+                    <h3>Sistema de Profesiones</h3>
+                </div>
+                <div class="row">
+                    <p>Para seleccionar unas profesiones primarias se debe se recomienda elegir una de las siguientes combinaciones debido ha que a la hora de subir una profesion se requieren componentes que se hacen o consiguen mediante otras profesiones(profesiones de recoleccion).</p>
+                    <ul class="profesiones">
+                        <li>Alquimia y Botanica</li>
+                        <li>Herreria y Mineria</li>
+                        <li>Ingenieria y Mineria</li>
+                        <li>Peleteria y Desuello</li>
+                        <li>Sastreria y Encantamiento</li>
+                    </ul>
+                </div>
+            </section>
+            <!--Leveo de profesiones-->
+            <section class="container-fluid">
+                <div class="row">
+                    <h3>Subida de las profesiones</h3>
+                </div>
+            <div class="row">
+                    <div>
+                        <p>Para subir una profesión tenemos que ir haciendo objetos con nuestra profesion complementaria o de recoleccion mientras nos movemos por los mapas. Cuando se llega a sierto nivel la pofesion no te dejara continuar subiendola creando o recolectando siertos objetos para saber este punto, se diferencia en colores: si a la hora de Crearlo/recolectarlo nos indica el nombre en <strong class="profesiones__habilidad--naranja">naranja</strong>, tiene una probabilidad del 100% de darnos un punto de nivel. Si aparece en <strong class="profesiones__habilidad--amarilla">amarillo</strong>, la probabilidad de conseguir el punto de habilidad es frecuente. Si aparece en <strong class="profesiones__habilidad--verde">verde</strong>, la probabilidad es poco frecuente. Y si aparece en <strong class="profesiones__habilidad--gris">gris</strong>, no nos va a dar ningún punto de nivel de habilidad.</p>                       
+                        <div class="Profesiones__imagen--centrado"><img src="../Img/Profesiones niveles.png" alt="Niveles de profesiones"></div>
                     </div>
-                    <div class="row-fluid profesiones__caractula--centrado">
-                        <img class="img-fluid profesiones_caractula--recuadro" src="../Img/Img-Profesiones.jpeg" alt="">
-                    </div>
-                </section>
-                <!--Todas las profesiones del juego-->
-                <section class="container-fluid">
-                    <div class="row">
-                        <h3>Profesiones de World of Warcraft:</h3>
-                    </div>
-                    <div class="row">
-                        <p>Dentro de Wow Clasic existen 9 profesiones principales de las cuales podemos aprender 2 de ellas que en el caso de querer cambiarla por otra se podra hacer en cualquier momento y otras 3 profesiones secundarias las cuales podremos aprender las tres.</p>
-                        <p>A continuacion te mostramos un listado de todas las profeciones existentes divididas en primarias y secundarias:</p>
-                    </div>
-                    <div class="row">
-                        <ul class="profesiones">
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Alchemy.png" alt="Logo de Alquimia">  
-                                    <p><strong>Alquimia</strong></p>
-                                </div>   
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Bracksmith.png" alt="Logo de Herreria">
-                                    <p><strong>Herreria</strong></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Enchanting.png" alt="Logo de Encantamiento">
-                                    <p><strong>Encantaiento</strong></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Engineering.png" alt="Logo de Ingenieria">
-                                    <p><strong>Ingenieria</strong></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Herbalism.png" alt="Logo de Herbolaria">
-                                    <p><strong>Botanica(Recoleccion)</strong></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Leathering.png" alt="Logo de Peleteria">
-                                    <p><strong>Peleteria</strong></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Mining.png" alt="Logo de Mineria">
-                                    <p><strong>Mineria(Recoleccion)</strong></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Skining.png" alt="Logo de Desuello">
-                                    <p><strong>Desuello(Recoleccion)</strong></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Tailoring.png" alt="Logo de Sastreria">
-                                    <p><strong>Sastreria</strong></p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row">
-                        <p>Las Profesiones secundarias que existen son:</p>
-                    </div>
-                    <div class="row">
-                        <ul class="profesiones">
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Coocking.png" alt="Logo de cocina">
-                                    <p><strong>Cocina</strong></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-Fishing.png" alt="Logo de Pesca">
-                                    <p><strong>Pesca</strong></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="profesiones--organizadorLista">
-                                    <img src="../Img/Profesiones/Prof-FirstAid.png" alt="Logo de Primeros Auxilios">
-                                    <p><strong>Primeros Auxilios</strong></p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
-                <!--Combinaciones de profesiones-->
-                <section class="container-fluid">
-                    <div class="row">
-                        <h3>Sistema de Profesiones</h3>
-                    </div>
-                    <div class="row">
-                        <p>Para seleccionar unas profesiones primarias se debe se recomienda elegir una de las siguientes combinaciones debido ha que a la hora de subir una profesion se requieren componentes que se hacen o consiguen mediante otras profesiones(profesiones de recoleccion).</p>
-                        <ul class="profesiones">
-                            <li>Alquimia y Botanica</li>
-                            <li>Herreria y Mineria</li>
-                            <li>Ingenieria y Mineria</li>
-                            <li>Peleteria y Desuello</li>
-                            <li>Sastreria y Encantamiento</li>
-                        </ul>
-                    </div>
-                </section>
-                <!--Leveo de profesiones-->
-                <section class="container-fluid">
-                    <div class="row">
-                        <h3>Subida de las profesiones</h3>
-                    </div>
-                    <div class="row">
-                        <div>
-                            <p>Para subir una profesión tenemos que ir haciendo objetos con nuestra profesion complementaria o de recoleccion mientras nos movemos por los mapas. Cuando se llega a sierto nivel la pofesion no te dejara continuar subiendola creando o recolectando siertos objetos para saber este punto, se diferencia en colores: si a la hora de Crearlo/recolectarlo nos indica el nombre en <strong class="profesiones__habilidad--naranja">naranja</strong>, tiene una probabilidad del 100% de darnos un punto de nivel. Si aparece en <strong class="profesiones__habilidad--amarilla">amarillo</strong>, la probabilidad de conseguir el punto de habilidad es frecuente. Si aparece en <strong class="profesiones__habilidad--verde">verde</strong>, la probabilidad es poco frecuente. Y si aparece en <strong class="profesiones__habilidad--gris">gris</strong>, no nos va a dar ningún punto de nivel de habilidad.</p>                       
-                            <div class="Profesiones__imagen--centrado"><img src="../Img/Profesiones niveles.png" alt="Niveles de profesiones"></div>
-                        </div>
-                    </div>
-                </section>
-                <!--Rangos de las profesiones-->
-                <section class="container-fluid">
-                    <div class="row">
-                        <h3>Rangos de las profesiones</h3>
-                    </div>
-                    <div class="row">
-                        <p>Mientras subimos nuestras profesiones iremos subiendo el rango de la misma el cual al llegar a sierto nivel no nos permitira seguir subiendo la profesion amenos de que subamos el rango primero. A continuacion tienes los rangos de las profesiones y sus franjas de niveles:</p>
-                        <ol class="profesiones__niveles--espaciado">
-                            <li>Aprendiz de nivel 1-50</li>
-                            <li>Oficial de nivel 50-125</li>
-                            <li>Experto de nivel 125-225</li>
-                            <li>Artesano de nivel 225-300</li>
-                        </ol>
-                    </div>
-                    <br>
-                </section>
+                </div>
+            </section>
+            <!--Rangos de las profesiones-->
+            <section class="container-fluid">
+                <div class="row">
+                    <h3>Rangos de las profesiones</h3>
+                </div>
+                <div class="row">
+                    <p>Mientras subimos nuestras profesiones iremos subiendo el rango de la misma el cual al llegar a sierto nivel no nos permitira seguir subiendo la profesion amenos de que subamos el rango primero. A continuacion tienes los rangos de las profesiones y sus franjas de niveles:</p>
+                    <ol class="profesiones__niveles--espaciado">
+                        <li>Aprendiz de nivel 1-50</li>
+                        <li>Oficial de nivel 50-125</li>
+                        <li>Experto de nivel 125-225</li>
+                        <li>Artesano de nivel 225-300</li>
+                    </ol>
+                </div>
             </section>
         </section>
-    </div>
+    </section>
     <!--Pie de Pagina-->
     <footer id="pie">
         <p>Wow Clasic Helper - pagina diseñada por fans</p>

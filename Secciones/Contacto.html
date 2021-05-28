@@ -66,88 +66,84 @@
         </nav>
     </Header>
     <!--Cuerpo de la Pagina-->
-    <div class="paginaContenedor">
-        <Section id="margen">
-            <section class="container-fluid contactos">
+    <Section id="margen">
+        <section class="container-fluid contactos">
+            <div class="row">
+                <h2>Contactanos</h2>
+                <h4>Si tienes dudas adicionales o opiniones sobre la pagina envianos tus dudas y/o sugerencias</h4>     
+        </div>
+        </section>
+        <!--Formulario-->
+        <section class="container contactos">
+            <form class="contactos__formulario--recuadro" action="Datos.php">
+                <!--Imagen de la carta-->
                 <div class="row">
-                    <h2>Contactanos</h2>
-                    <h4>Si tienes dudas adicionales o opiniones sobre la pagina envianos tus dudas y/o sugerencias</h4>     
+                    <div class="col formulario__imagen">
+                        <img class="img-fluid formulario__imagen--recuadro" src="../Img/Logos/Logo-carta.png" alt="Carta">
+                    </div>
                 </div>
-            </section>
-            <!--Formulario-->
-            <section class="container contactos">
-                <form class="contactos__formulario--recuadro" action="Datos.php">
-                    <!--Imagen de la carta-->
-                    <div class="row">
-                        <div class="col formulario__imagen">
-                            <br>
-                            <img class="img-fluid formulario__imagen--recuadro" src="../Img/Logos/Logo-carta.png" alt="Carta">
+                <!--Renglon de nombre y email-->
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="formulario__nombre">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="Nombre" id="" placeholder="Ingrese su Nombre">
                         </div>
                     </div>
-                    <!--Renglon de nombre y email-->
-                    <div class="row">
-                        <div class="col-md-6 ">
-                            <div class="formulario__nombre">
-                                <label for="nombre">Nombre</label>
-                                <input type="text" name="Nombre" id="" placeholder="Ingrese su Nombre">
-                            </div>
-                        </div>
-                        <div class="col-md-6 ">
-                            <div class="formulario__email">
-                                <label for="email">@-Email</label>
-                                <input type="email" name="Email" id="" placeholder="Email">
-                            </div>
+                    <div class="col-md-6 ">
+                        <div class="formulario__email">
+                            <label for="email">@-Email</label>
+                            <input type="email" name="Email" id="" placeholder="Email">
                         </div>
                     </div>
-                    <!--Renglon de batel-tag y tipo consulta-->
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="formulario__battelTag">
-                                <label for="Battel Tag">BattelTag</label>
-                                <input type="text" name="Usuario" id="" placeholder="Battel Tag (Opcional)">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="formulario__tipoConsulta">
-                                <label for="Tipo de Consulta">Motivo</label>
-                                <select name="Opcion" id="">
-                                    <option value="Tipo de Consulta">Otros</option>
-                                    <option value="Sugerencias">Sugerencias</option>
-                                    <option value="Dudas sobre una guia">Dudas sobre una guia</option>
-                                    <option value="Ayuda comunidad en el juego">Ayuda comunidad</option>
-                                </select>
-                            </div>
+                </div>
+                <!--Renglon de batel-tag y tipo consulta-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="formulario__battelTag">
+                            <label for="Battel Tag">BattelTag</label>
+                            <input type="text" name="Usuario" id="" placeholder="Battel Tag (Opcional)">
                         </div>
                     </div>
-                    <!--Renglon de chekbox-->
-                    <div class="row">
-                        <div class="col-4 formulario__chekbox align-item-center">
-                            <input type="checkbox" name="Novedades" id="Buzon de correo">
-                        </div>
-                        <div class="col-8 formulario__siNovedades align-item-center">
-                            <p>¿Quieres recibir las ultimasnoticias y novedades?</p>
-                        </div>
-                    </div>
-                    <!--Renglon de la caja de comentarios-->
-                    <div class="row">
-                        <div class="formulario__cajaDeComentarios">
-                            <textarea name="Mensage" id="" cols="30" rows="10" placeholder="Dejanos tu mensaje"></textarea>
+                    <div class="col-md-6">
+                        <div class="formulario__tipoConsulta">
+                            <label for="Tipo de Consulta">Motivo</label>
+                            <select name="Opcion" id="">
+                                <option value="Tipo de Consulta">Otros</option>
+                                <option value="Sugerencias">Sugerencias</option>
+                                <option value="Dudas sobre una guia">Dudas sobre una guia</option>
+                                <option value="Ayuda comunidad en el juego">Ayuda comunidad</option>
+                            </select>
                         </div>
                     </div>
-                    <!--Renglon de los botones-->
-                    <div class="row">
-                        <div class="col formulario__botones">
-                            <input type="reset" class="btn btn-success"></button>
-                        </div>
-                        <div class="col formulario__botones">
-                            <input type="submit" class="btn btn-danger enviar"></button>
-                        </div>
+                </div>
+                <!--Renglon de chekbox-->
+                <div class="row">
+                    <div class="col-4 formulario__chekbox align-item-center">
+                        <input type="checkbox" name="Novedades" id="Buzon de correo">
                     </div>
-                </form>
-            </section>
-            <br>
-        </Section>
-    </div>
+                    <div class="col-8 formulario__siNovedades align-item-center">
+                        <p>¿Quieres recibir las ultimasnoticias y novedades?</p>
+                    </div>
+                </div>
+                <!--Renglon de la caja de comentarios-->
+                <div class="row">
+                    <div class="formulario__cajaDeComentarios">
+                        <textarea name="Mensage" id="" cols="30" rows="10" placeholder="Dejanos tu mensaje"></textarea>
+                    </div>
+                </div>
+                <!--Renglon de los botones-->
+                <div class="row">
+                    <div class="col formulario__botones">
+                        <input type="reset" class="btn btn-success"></button>
+                    </div>
+                    <div class="col formulario__botones">
+                        <input type="submit" class="btn btn-danger enviar"></button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </Section>
     <!--Pie de Pagina-->
     <footer id="pie">
         <p>Wow Clasic Helper - pagina diseñada por fans</p>
