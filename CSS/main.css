@@ -37,6 +37,7 @@
 #margen {
   width: 95%;
   margin: auto;
+  padding-bottom: 50px;
   color: white;
   background-color: rgba(0, 0, 0, 0.9);
   font-family: roboto slab, sans-serif; }
@@ -148,7 +149,8 @@ body {
 /*Tabla de la Horda*/
 .combinacionesHorda {
   padding-left: 50px;
-  padding-right: 50px; }
+  padding-right: 50px;
+  padding-bottom: 30px; }
   .combinacionesHorda .combinacionesHorda__tabla--estilos {
     background-color: rgba(0, 0, 0, 0.9);
     border: 1px solid #ff3232;
@@ -241,6 +243,11 @@ body {
 
 .clases__introduccion .introduccion_navegador--centrado {
   text-align: center; }
+  .clases__introduccion .introduccion_navegador--centrado .introduccion_navegador--transition {
+    transition: height 3s, width 3s; }
+  .clases__introduccion .introduccion_navegador--centrado .introduccion_navegador--transition:hover {
+    width: 120%;
+    height: 120%; }
 
 .clases__introduccion .clases__introduccion--espaciado {
   margin-top: 50px;
@@ -436,6 +443,7 @@ body {
     /*formulario seccion de la caja de comentarios*/
     /*formulario seccion de los botones enviar y reset*/ }
     .contactos .contactos__formulario--recuadro .formulario__imagen {
+      padding-top: 20px;
       text-align: center; }
       .contactos .contactos__formulario--recuadro .formulario__imagen .formulario__imagen--recuadro {
         border-radius: 10px;
@@ -492,17 +500,6 @@ body {
       .contactos .contactos__formulario--recuadro .formulario__botones .enviar {
         width: 100px; }
 
-/*MediaSquery*/
-/*Seccion de contactos para estilizar la transicion a medida qie se reduce la resolucion de pantalla*/
-@media (min-width: 768px) {
-  .tipoConsulta select {
-    width: 200px; } }
-
-/*Todas las secciones*/
-@media (max-width: 576px) {
-  #margen {
-    font-size: 18px; } }
-
 /*Pie de pagina*/
 #pie {
   background-image: linear-gradient(to top, black, #504f4f);
@@ -517,3 +514,14 @@ body {
     width: 60px;
     height: auto;
     text-align: center; }
+
+/*MediaSquery*/
+/*Seccion de contactos para estilizar la transicion a medida qie se reduce la resolucion de pantalla*/
+@media (min-width: 768px) {
+  .tipoConsulta select {
+    width: 200px; } }
+
+/*Todas las secciones*/
+@media (max-width: 576px) {
+  #margen {
+    font-size: 18px; } }
