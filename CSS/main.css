@@ -82,6 +82,9 @@ body {
   font-family: 'Times New Roman', Times, serif;
   color: #bdb9b9; }
 
+.noticias--separadoor {
+  padding-top: 20px; }
+
 .notas--estilo {
   margin: auto;
   border: 3px solid #1f1e1e;
