@@ -10,13 +10,15 @@
   width: 100%;
   background-image: linear-gradient(to bottom, black, #747272); }
   #cabecera .cabecera__titulo {
+    padding-top: 18px;
+    padding-bottom: 18px;
     display: grid;
     justify-items: center;
     align-items: center;
     grid-template-columns: 20% 60% 10%; }
     #cabecera .cabecera__titulo h1 {
       text-align: center;
-      font-size: 45px; }
+      font-size: 50px; }
       #cabecera .cabecera__titulo h1 a {
         text-decoration: none;
         color: white; }
@@ -121,36 +123,43 @@ body {
     color: #bd6508; }
 
 /*Parche de PTR Burning Crusade*/
-.nota3 {
-  background-color: rgba(0, 0, 0, 0.9); }
-  .nota3 p {
-    margin-top: 15px; }
-  .nota3 .nota3__fuente3 {
-    list-style-image: url(../Img/Placa-BurningCrusades.png);
-    padding-left: 110px; }
-    .nota3 .nota3__fuente3 li {
-      width: 80px; }
-  .nota3 .nota3__caja1--color {
-    text-align: center; }
-    .nota3 .nota3__caja1--color p {
-      color: #00aeff; }
-  .nota3 .nota3__caja2--centrado {
-    text-align: center; }
+.nota3 p {
+  margin-top: 15px; }
+
+.nota3 .nota3__fuente3 {
+  list-style-image: url(../Img/Placa-BurningCrusades.png);
+  padding-left: 110px; }
+  .nota3 .nota3__fuente3 li {
+    width: 80px; }
+
+.nota3 .nota3__recuadro {
+  border-top: 2px solid #bd6508;
+  border-bottom: 2px solid #bd6508; }
+
+.nota3 .nota3__caja1--color {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  .nota3 .nota3__caja1--color p {
+    color: #00aeff; }
+
+.nota3 .nota3__caja2--centrado {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 /*Parche de Sombra de la Necrópolis */
-.nota2 {
-  background-color: rgba(0, 0, 0, 0.9); }
-  .nota2 p {
-    margin-top: 15px; }
-  .nota2 .nota2__fuente2 {
-    list-style-image: url(../Img/Placa-ShadowsoftheNecropolis.png);
-    padding-left: 110px; }
-    .nota2 .nota2__fuente2 li {
-      width: 80px; }
+.nota2 p {
+  margin-top: 15px; }
+
+.nota2 .nota2__fuente2 {
+  list-style-image: url(../Img/Placa-ShadowsoftheNecropolis.png);
+  padding-left: 110px; }
+  .nota2 .nota2__fuente2 li {
+    width: 80px; }
 
 /*Parche de Ahn’Qiraj*/
 .nota1 {
-  background-color: rgba(0, 0, 0, 0.9);
   margin-bottom: 60px; }
   .nota1 p {
     margin-top: 15px; }
@@ -342,6 +351,10 @@ body {
       color: yellow; }
 
 /*Cuerpo de profesiones*/
+.profesiones__contenido {
+  padding-left: 60px;
+  font-size: 18px; }
+
 .profesiones__caractula--centrado {
   text-align: center; }
   .profesiones__caractula--centrado .profesiones_caractula--recuadro {
@@ -539,19 +552,23 @@ body {
         width: 100px; }
 
 /*Pie de pagina*/
-#pie {
-  background-image: linear-gradient(to top, black, #504f4f);
-  width: 100%;
-  height: 120px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  color: #00aeff;
+.pie__Contenedor {
+  background-color: #3e4551;
+  color: white; }
+
+.pie__informacion--recuadro {
+  border-right: 1px solid #7a7c7c; }
+
+.pie__arbol--centrado {
   text-align: center; }
-  #pie .pie__imagen--centrado {
-    width: 60px;
-    height: auto;
-    text-align: center; }
+
+.pie__Contenedor--copyrigt {
+  background-color: #323741; }
+
+.pie__imagen--centrado {
+  width: 60px;
+  height: auto;
+  text-align: center; }
 
 /*MediaSquery*/
 /*Seccion de contactos para estilizar la transicion a medida qie se reduce la resolucion de pantalla*/

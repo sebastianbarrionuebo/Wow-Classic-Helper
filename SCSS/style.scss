@@ -36,13 +36,15 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
     width: 100%;
     background-image: linear-gradient(to bottom,black,rgb(116, 114, 114));
     .cabecera__titulo{
+        padding-top: 18px;
+        padding-bottom: 18px;
         display: grid;
         justify-items: center;
         align-items: center;
         grid-template-columns: 20% 60% 10%;
         h1{
             text-align: center;
-            font-size: 45px;
+            font-size: 50px;
             a{
                 text-decoration: none;
                 color: white;
@@ -170,7 +172,6 @@ body{
     }
     /*Parche de PTR Burning Crusade*/
 .nota3{
-    background-color: $fondoTransparentado;
     p{
         margin-top: 15px;
     }
@@ -181,19 +182,26 @@ body{
             width: 80px;
         }
     }
+    .nota3__recuadro{
+        border-top: 2px solid rgb(189, 101, 8);
+        border-bottom: 2px solid rgb(189, 101, 8);
+    }
     .nota3__caja1--color{
         text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
         p{
             color: $blizzard;
         }
     }
     .nota3__caja2--centrado{
         text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
     /*Parche de Sombra de la Necrópolis */
 .nota2{
-    background-color: $fondoTransparentado;
     p{
         margin-top: 15px;
     }
@@ -207,7 +215,6 @@ body{
 }
     /*Parche de Ahn’Qiraj*/
 .nota1{
-    background-color: $fondoTransparentado;
     margin-bottom: 60px;
     p{
         margin-top: 15px;
@@ -409,6 +416,10 @@ body{
 
 
 /*Cuerpo de profesiones*/
+.profesiones__contenido{
+    padding-left: 60px;
+    font-size: 18px;
+}
 .profesiones__caractula--centrado{
     text-align: center;
     .profesiones_caractula--recuadro{
@@ -652,20 +663,23 @@ body{
 
 
 /*Pie de pagina*/
-#pie{
-    background-image: linear-gradient(to top, black , rgb(80, 79, 79));
-    width: 100%;
-    height: 120px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    color: $blizzard;
+.pie__Contenedor{
+    background-color: rgb(62,69,81);
+    color: white;
+}
+.pie__informacion--recuadro{
+    border-right: 1px solid rgb(122, 124, 124);
+}
+.pie__arbol--centrado{
     text-align: center;
-    .pie__imagen--centrado{
-        width: 60px;
-        height: auto;
-        text-align: center;
-    }
+}
+.pie__Contenedor--copyrigt{
+    background-color: rgb(50,55,65);
+}
+.pie__imagen--centrado{
+    width: 60px;
+    height: auto;
+    text-align: center;
 }
 
 

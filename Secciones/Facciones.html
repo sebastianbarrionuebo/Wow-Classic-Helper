@@ -17,7 +17,7 @@
     <!--Cabecera de la pagina-->
     <Header id="cabecera">
         <div class="cabecera__titulo">
-            <img class="cabecera__titulo cabecera__titulo__logo" src="../Img/Logos/logo-wh.png" alt="Wow Classic Helper">
+            <img class="cabecera__titulo cabecera__titulo__logo" src="../Img/Logos/logo-wh.png" alt="logo Wow Clasic Helper">
             <h1><a href="../index.html">Wow Classic Helper</a></h1>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -33,18 +33,31 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="Clases.html">Clases</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="Razas.html">Razas</a></li>
+                                <li><a class="dropdown-item" href="Facciones.html">Facciones</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Profesiones.html">Profesiones</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Profesiones.html" id="navbarDropdown" role="button" aria-expanded="false">Profesiones</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Profesiones.html#prefesiones">Todas las profesiones</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="Profesiones.html#sistema">Sistema de profesiones</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="Profesiones.html#niveles">Niveles de profesiones</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="Profesiones.html#rangos">Rangos de profesiones</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="Profesiones.html#raciales">Raciales de profesion</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="Profesiones.html#objetos">Objetos necesarios</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="Mazmorras.html" id="navbarDropdown" role="button" aria-expanded="false">Mazmorras y Bandas</a>
+                            <a class="nav-link dropdown-toggle" href="Instancias.html" id="navbarDropdown" role="button" aria-expanded="false">Instancias</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="Mazmorras.html#mazmorras">mazmorras</a></li>
+                                <li><a class="dropdown-item" href="Instancias.html#mazmorras">Mazmorras</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="Mazmorras.html#bandas">Bandas</a></li>
+                                <li><a class="dropdown-item" href="Instancias.html#bandas">Bandas</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -68,7 +81,7 @@
         <!--introduccion-->
         <section class="container-fluid">
             <div class="row">
-                <h2>Razas de World of Warcraft</h2>
+                <h2>Facciones</h2>
             </div>
             <div class="row">
                 <h3>Introduccion a las razas</h3>
@@ -198,10 +211,112 @@
         </section>
     </Section>
     <!--Pie de Pagina-->
-    <footer id="pie">
-        <p>Wow Clasic Helper - pagina diseñada por fans</p>
-        <p>Derechos reservados <a href="https://www.blizzard.com/es-es/"><strong>Activision Blizzard Entertainment</strong></a></p>
-        <img src="../Img/Logos/Logo-blizzard.png" alt="Logo de Blizzard Entertainment" class="img-fluid pie__imagen--centrado">
+    <footer class="page-footer font-small stylish-color-dark pt-4 pie__Contenedor">
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-4 mx-auto pie__informacion--recuadro">
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">- Wow Clasic Helper -</h5>
+                    <p>Pagina diseñada por fans sobre contenido de World of Warcraft Classic y sus expansiones</p>
+                    <img src="../Img/Logos/logo-wh.png" alt="Logo del sito web" class="img-fluid pie__imagen--centrado">
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none">
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 pie__arbol--centrado">Juego</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="Juego.html">Juego</a>
+                        </li>
+                        <li>
+                            <a href="Clases.html">Clases</a>
+                        </li>
+                        <li>
+                            <a href="Facciones.html">Facciones</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none">
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 pie__arbol--centrado">Profesiones</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="Profesiones.html#profesiones--enlace">Profesiones</a>
+                        </li>
+                        <li>
+                            <a href="Profesiones.html#sistema">Sistema </a>
+                        </li>
+                        <li>
+                            <a href="Profesiones.html#niveles">Niveles</a>
+                        </li>
+                        <li>
+                            <a href="Profesiones.html#rangos">Rangos</a>
+                        </li>
+                        <li>
+                            <a href="Profesiones.html#raciales">Raciales</a>
+                        </li>
+                        <li>
+                            <a href="Profesiones.html#objetos">Objetos</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none">
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+                <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 pie__arbol--centrado">Instancias</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="Instancias.html#mazmorras">Mazmorras</a>
+                        </li>
+                        <li>
+                            <a href="Instancias.html#bandas">Bandas</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none">
+                <!-- Grid column -->
+                <div class="col-md-2 mx-auto">
+                <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4 pie__arbol--centrado">Mapas</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="Mapas.html#kalindor">Kalindor</a>
+                        </li>
+                        <li>
+                            <a href="Mapas.html#este">Reinos del Este</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                
+            </div>
+            <!-- Grid row -->
+        </div>
+        <hr>
+        <!-- Call to action -->
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+                <h5 class="mb-1">Necesitas asistencia:</h5>
+            </li>
+            <li class="list-inline-item">
+                <a href="Contacto.html" class="btn btn-danger btn-rounded">Contactanos</a>
+            </li>
+        </ul>
+        <div class="footer-copyright text-center py-3 pie__Contenedor--copyrigt">Derechos reservados:
+            <a href="https://www.blizzard.com/es-es/"><strong>Activision Blizzard Entertainment</strong></a>
+            <p><img class="pie__imagen--centrado" src="../Img/Logos/Logo-blizzard.png" alt="Logo de Blizzard"></p>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
