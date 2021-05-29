@@ -35,6 +35,9 @@
 .dropdown-menu {
   background-color: #d3d2d2; }
 
+.color {
+  color: white; }
+
 /*Cuerpo de la pagina*/
 #margen {
   width: 95%;
