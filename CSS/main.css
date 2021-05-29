@@ -40,6 +40,7 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 50px;
+  border-radius: 0.4em;
   color: white;
   background-color: rgba(0, 0, 0, 0.9);
   font-family: roboto slab, sans-serif; }
@@ -73,6 +74,9 @@ body {
   background-size: cover; }
 
 /*Cuerpo del index*/
+.Carrucel__contenedor {
+  padding-top: 20px; }
+
 .notas__listas--espaciado {
   padding-left: 40px;
   color: #dad9d9; }

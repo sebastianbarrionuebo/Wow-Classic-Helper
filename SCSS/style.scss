@@ -71,6 +71,7 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;
+    border-radius: 0.4em;
     color: white;
     background-color: $fondoTransparentado;
     font-family: roboto slab, sans-serif;
@@ -113,6 +114,9 @@ body{
 
 
 /*Cuerpo del index*/
+.Carrucel__contenedor{
+    padding-top: 20px;
+}
 .notas__listas--espaciado{
     padding-left: 40px;
     color: rgb(218, 217, 217); 
