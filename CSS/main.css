@@ -8,7 +8,7 @@
 /*Cabecera*/
 #cabecera {
   width: 100%;
-  background-image: linear-gradient(to bottom, black, #747272); }
+  background-color: #3e4551; }
   #cabecera .cabecera__titulo {
     padding-top: 18px;
     padding-bottom: 18px;
@@ -21,7 +21,7 @@
       font-size: 50px; }
       #cabecera .cabecera__titulo h1 a {
         text-decoration: none;
-        color: white; }
+        color: #00aeff; }
 
 .cabecera__titulo__logo {
   width: 100px;
@@ -34,9 +34,6 @@
 
 .dropdown-menu {
   background-color: #d3d2d2; }
-
-.color {
-  color: white; }
 
 .nav__noticias--color {
   color: white; }

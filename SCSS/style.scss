@@ -34,7 +34,7 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
 /*Cabecera*/
 #cabecera{
     width: 100%;
-    background-image: linear-gradient(to bottom,black,rgb(116, 114, 114));
+    background-color: rgb(62, 69, 81);
     .cabecera__titulo{
         padding-top: 18px;
         padding-bottom: 18px;
@@ -47,7 +47,7 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
             font-size: 50px;
             a{
                 text-decoration: none;
-                color: white;
+                color: $blizzard;
             }
         }
     }
@@ -63,9 +63,6 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
 }
 .dropdown-menu{
     background-color: rgb(211, 210, 210);
-}
-.color{
-    color: white;
 }
 .nav__noticias--color{
     color: white;
