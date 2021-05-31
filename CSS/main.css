@@ -36,11 +36,12 @@
 .dropdown-menu {
   background-color: #d3d2d2; }
 
-.nav__noticias--color {
-  color: white; }
-
-.nav__noticias--recuadro {
+/*Menus secciones de noticias*/
+.nav__noticias .nav__noticias--recuadro {
   border-right: 1px solid gray; }
+  .nav__noticias .nav__noticias--recuadro .nav__noticias--color {
+    color: #00aeff;
+    text-shadow: 2px 2px 4px black; }
 
 /*Cuerpo de la pagina*/
 .body__sitioWeb--background {
@@ -82,7 +83,7 @@
 
 .body__mapaSitio--background {
   /*Body de Mapa del Sitio*/
-  background-image: linear-gradient(#5a6f92, #3e4551);
+  background-image: linear-gradient(#5c6677, #3e4551);
   color: white; }
   .body__mapaSitio--background #margen {
     padding-bottom: 40px; }
@@ -94,13 +95,14 @@
       margin-left: 45px;
       padding: 40px;
       font-size: 35px;
-      text-shadow: 2px 2px 4px black; }
+      text-shadow: 3px 3px 6px black; }
     .body__mapaSitio--background #margen ul {
       margin-left: 110px;
       list-style: none; }
       .body__mapaSitio--background #margen ul li {
         padding: 10px;
-        font-size: 30px; }
+        font-size: 30px;
+        text-shadow: 2px 2px 4px black; }
 
 /*Cuerpo del index*/
 .Carrucel__contenedor {
