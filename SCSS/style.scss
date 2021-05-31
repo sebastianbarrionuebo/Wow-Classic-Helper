@@ -74,52 +74,77 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
 
 
 /*Cuerpo de la pagina*/
-#margen{
-    width: 95%;
-    margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 50px;
-    border-radius: 0.4em;
-    color: white;
-    background-color: $fondoTransparentado;
-    font-family: roboto slab, sans-serif;
-    h2{
-        text-align: center;
-        font-size: 40px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    h3{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 25px;
-    }
-    h4{
-        padding-top: 5px;
-        padding-bottom: 15px;
-        font-size: 20px;
-    }
-    section{
-        margin-top: 60px;
-    }
-}
-p{
-    margin-left: 10px;
-    color: rgb(238, 230, 230);  
-}
-ul{
-    li{
-        color: rgb(238, 230, 230); 
-    }
-}
-body{
+.body__sitioWeb--background{/*Body de las paginas expeto Mapa del Sitio*/
     background-image: url(../Img/Paisaje2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    #margen{
+        width: 95%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        border-radius: 0.4em;
+        color: white;
+        background-color: $fondoTransparentado;
+        font-family: roboto slab, sans-serif;
+        h2{
+            text-align: center;
+            font-size: 40px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        h3{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+        h4{
+            padding-top: 5px;
+            padding-bottom: 15px;
+            font-size: 20px;
+        }
+        section{
+            margin-top: 60px;
+        }
+    }
+    p{
+        margin-left: 10px;
+        color: rgb(238, 230, 230);  
+    }
+    ul{
+        li{
+            color: rgb(238, 230, 230); 
+        }
+    }
 }
-
+.body__mapaSitio--background{/*Body de Mapa del Sitio*/
+    background-image: linear-gradient( rgb(90, 111, 146), rgb(62, 69, 81));
+    color: white;
+    #margen{
+        h2{
+            font-size: 50px;
+            padding: 40px;
+            text-shadow: 4px 4px 8px black;
+        }
+        h3{
+            margin-left: 45px;
+            padding: 40px;
+            font-size: 35px;
+            text-shadow: 2px 2px 4px black;
+        }
+        ul{
+            margin-left: 110px;
+            list-style: none;
+            li {
+                padding: 10px;
+                font-size: 30px;
+            }
+        }
+        padding-bottom: 40px;
+    }
+}
 
 
 /*Cuerpo del index*/
@@ -457,6 +482,7 @@ body{
 .profesiones__niveles--espaciado{
     margin-left: 5%;
     list-style-type: upper-roman;
+    color: rgb(238, 230, 230);  
 }
 
 
@@ -704,4 +730,3 @@ body{
             font-size: 18px;
         }
     }
-    

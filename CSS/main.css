@@ -42,44 +42,64 @@
   border-right: 1px solid gray; }
 
 /*Cuerpo de la pagina*/
-#margen {
-  width: 95%;
-  margin: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 50px;
-  border-radius: 0.4em;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.9);
-  font-family: roboto slab, sans-serif; }
-  #margen h2 {
-    text-align: center;
-    font-size: 40px;
-    padding-top: 30px;
-    padding-bottom: 30px; }
-  #margen h3 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 25px; }
-  #margen h4 {
-    padding-top: 5px;
-    padding-bottom: 15px;
-    font-size: 20px; }
-  #margen section {
-    margin-top: 60px; }
-
-p {
-  margin-left: 10px;
-  color: #eee6e6; }
-
-ul li {
-  color: #eee6e6; }
-
-body {
+.body__sitioWeb--background {
+  /*Body de las paginas expeto Mapa del Sitio*/
   background-image: url(../Img/Paisaje2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
+  .body__sitioWeb--background #margen {
+    width: 95%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    border-radius: 0.4em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: roboto slab, sans-serif; }
+    .body__sitioWeb--background #margen h2 {
+      text-align: center;
+      font-size: 40px;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+    .body__sitioWeb--background #margen h3 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 25px; }
+    .body__sitioWeb--background #margen h4 {
+      padding-top: 5px;
+      padding-bottom: 15px;
+      font-size: 20px; }
+    .body__sitioWeb--background #margen section {
+      margin-top: 60px; }
+  .body__sitioWeb--background p {
+    margin-left: 10px;
+    color: #eee6e6; }
+  .body__sitioWeb--background ul li {
+    color: #eee6e6; }
+
+.body__mapaSitio--background {
+  /*Body de Mapa del Sitio*/
+  background-image: linear-gradient(#5a6f92, #3e4551);
+  color: white; }
+  .body__mapaSitio--background #margen {
+    padding-bottom: 40px; }
+    .body__mapaSitio--background #margen h2 {
+      font-size: 50px;
+      padding: 40px;
+      text-shadow: 4px 4px 8px black; }
+    .body__mapaSitio--background #margen h3 {
+      margin-left: 45px;
+      padding: 40px;
+      font-size: 35px;
+      text-shadow: 2px 2px 4px black; }
+    .body__mapaSitio--background #margen ul {
+      margin-left: 110px;
+      list-style: none; }
+      .body__mapaSitio--background #margen ul li {
+        padding: 10px;
+        font-size: 30px; }
 
 /*Cuerpo del index*/
 .Carrucel__contenedor {
@@ -395,7 +415,8 @@ body {
 
 .profesiones__niveles--espaciado {
   margin-left: 5%;
-  list-style-type: upper-roman; }
+  list-style-type: upper-roman;
+  color: #eee6e6; }
 
 /*Cuerpo de mazmorras*/
 .instancias_imagen--centrado {
