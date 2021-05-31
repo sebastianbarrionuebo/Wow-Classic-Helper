@@ -18,7 +18,8 @@
     grid-template-columns: 20% 60% 10%; }
     #cabecera .cabecera__titulo h1 {
       text-align: center;
-      font-size: 50px; }
+      font-size: 50px;
+      text-shadow: 2px 2px 4px black; }
       #cabecera .cabecera__titulo h1 a {
         text-decoration: none;
         color: #00aeff; }
