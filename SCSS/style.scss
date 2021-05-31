@@ -65,11 +65,15 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
 .dropdown-menu{
     background-color: rgb(211, 210, 210);
 }
-.nav__noticias--color{
-    color: white;
-}
-.nav__noticias--recuadro{
-    border-right: 1px solid gray;
+    /*Menus secciones de noticias*/
+.nav__noticias{
+    .nav__noticias--recuadro{
+        border-right: 1px solid gray;
+        .nav__noticias--color{
+            color: $blizzard;
+            text-shadow: 2px 2px 4px black;
+        }
+    }
 }
 
 
@@ -121,7 +125,7 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
     }
 }
 .body__mapaSitio--background{/*Body de Mapa del Sitio*/
-    background-image: linear-gradient( rgb(90, 111, 146), rgb(62, 69, 81));
+    background-image: linear-gradient( rgb(92, 102, 119), rgb(62, 69, 81));
     color: white;
     #margen{
         h2{
@@ -133,7 +137,7 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
             margin-left: 45px;
             padding: 40px;
             font-size: 35px;
-            text-shadow: 2px 2px 4px black;
+            text-shadow: 3px 3px 6px black;
         }
         ul{
             margin-left: 110px;
@@ -141,6 +145,7 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
             li {
                 padding: 10px;
                 font-size: 30px;
+                text-shadow: 2px 2px 4px black;
             }
         }
         padding-bottom: 40px;
