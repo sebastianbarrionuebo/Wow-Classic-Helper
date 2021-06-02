@@ -10,8 +10,8 @@
   width: 100%;
   background-color: #3e4551; }
   #cabecera .cabecera__titulo {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -29,19 +29,22 @@
   text-align: center; }
 
 /*Menus*/
-.nav-item:hover ul {
+.menu .menu__item:hover ul {
   display: block;
   position: absolute; }
 
-.dropdown-menu {
+.menu .dropdown-menu {
   background-color: #d3d2d2; }
 
 /*Menus secciones de noticias*/
-.nav__noticias .nav__noticias--recuadro {
+.menuNoticias .menuNoticias__item--recuadro {
   border-right: 1px solid gray; }
-  .nav__noticias .nav__noticias--recuadro .nav__noticias--color {
+  .menuNoticias .menuNoticias__item--recuadro .menuNoticias__link--color {
     color: #00aeff;
     text-shadow: 2px 2px 4px black; }
+
+.menuNoticias .menuNoticias__item--recuadro a p:hover {
+  color: #0285c2; }
 
 /*Cuerpo de la pagina*/
 .body__sitioWeb--background {
@@ -105,9 +108,6 @@
         text-shadow: 2px 2px 4px black; }
 
 /*Cuerpo del index*/
-.Carrucel__contenedor {
-  padding-top: 20px; }
-
 .notas__listas--espaciado {
   padding-left: 40px;
   color: #dad9d9; }
@@ -509,6 +509,7 @@
 .contactos {
   padding-left: 35px;
   padding-right: 35px;
+  padding-bottom: 70px;
   width: 70%;
   margin: auto; }
   .contactos .contactos__formulario--recuadro {
