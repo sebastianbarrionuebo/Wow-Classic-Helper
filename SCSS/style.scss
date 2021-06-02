@@ -116,7 +116,11 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
             font-size: 20px;
         }
         .secciones--ceparador{
+            padding-top: 60px;
+        }
+        .seccionFinal--ceparador{
             margin-top: 60px;
+            padding-bottom: 60px;
         }
     }
     p{
@@ -320,6 +324,7 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
 .combinacionesAlianza{
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
     .combinacionesAlianza__tabla--estilos{
         background-color: $fondoTransparentado;
         border: 1px solid $alianza;
@@ -416,10 +421,6 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
     margin-top: 50px;
     font-size: 23px;
 }
-
-
-
-
 
 
 
@@ -606,11 +607,11 @@ $nivelesProfesiones:( /*mapa de niveles de profesiones*/
 }
 
 
+
 /*Cuerpo de contactos*/
 .contactos{
     padding-left: 35px;
     padding-right: 35px;
-    padding-bottom: 70px;
     width: 70%;
     margin: auto;
     .contactos__formulario--recuadro{

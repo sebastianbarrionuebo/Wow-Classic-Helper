@@ -77,7 +77,10 @@
       padding-bottom: 15px;
       font-size: 20px; }
     .body__sitioWeb--background #margen .secciones--ceparador {
-      margin-top: 60px; }
+      padding-top: 60px; }
+    .body__sitioWeb--background #margen .seccionFinal--ceparador {
+      margin-top: 60px;
+      padding-bottom: 60px; }
   .body__sitioWeb--background p {
     margin-left: 10px;
     color: #eee6e6; }
@@ -242,7 +245,8 @@
 /*Tabla de la Alianza*/
 .combinacionesAlianza {
   padding-left: 50px;
-  padding-right: 50px; }
+  padding-right: 50px;
+  padding-bottom: 30px; }
   .combinacionesAlianza .combinacionesAlianza__tabla--estilos {
     background-color: rgba(0, 0, 0, 0.9);
     border: 1px solid #5f5ff2;
@@ -509,7 +513,6 @@
 .contactos {
   padding-left: 35px;
   padding-right: 35px;
-  padding-bottom: 70px;
   width: 70%;
   margin: auto; }
   .contactos .contactos__formulario--recuadro {
