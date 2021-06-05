@@ -610,7 +610,52 @@
   .tipoConsulta select {
     width: 200px; } }
 
-/*Todas las secciones*/
+/*Formato telefono*/
 @media (max-width: 576px) {
+  /*Todas las secciones tamaño de las letras*/
   #margen {
-    font-size: 18px; } }
+    font-size: 18px; }
+  /*Formulario mas grende de la pag Contacto*/
+  .contactos {
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 95%;
+    margin: auto; }
+  /*Tablas de la pag Juego*/
+  .combinacionesHorda {
+    padding-left: 2px;
+    padding-right: 2px; }
+  .combinacionesAlianza {
+    padding-left: 2px;
+    padding-right: 2px; }
+  /*Tablas de la pag Instancias*/
+  .mazmorras {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 16px; }
+  .bandas {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 16px; }
+  /*Tablas de la pag Mapas*/
+  .kalindor {
+    padding-left: 2px;
+    padding-right: 2px; }
+  .este {
+    padding-left: 2px;
+    padding-right: 2px; }
+  /*Mapa del Sitioweb*/
+  .body__mapaSitio--background #margen h3 {
+    padding: 10px;
+    margin-left: 10px; }
+  .body__mapaSitio--background #margen ul {
+    padding: 15px;
+    margin-left: 15px; }
+    .body__mapaSitio--background #margen ul li {
+      font-size: 26px; }
+  /*Cabecera*/
+  #cabecera .cabecera__titulo {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 30% 70%; } }
