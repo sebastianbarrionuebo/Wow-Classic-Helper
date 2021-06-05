@@ -630,13 +630,13 @@
     padding-right: 2px; }
   /*Tablas de la pag Instancias*/
   .mazmorras {
-    padding-left: 2px;
-    padding-right: 2px;
-    font-size: 16px; }
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 14px; }
   .bandas {
-    padding-left: 2px;
-    padding-right: 2px;
-    font-size: 16px; }
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 14px; }
   /*Tablas de la pag Mapas*/
   .kalindor {
     padding-left: 2px;
