@@ -10,8 +10,6 @@
   width: 100%;
   background-color: #3e4551; }
   #cabecera .cabecera__titulo {
-    padding-top: 8px;
-    padding-bottom: 8px;
     display: grid;
     justify-items: center;
     align-items: center;
